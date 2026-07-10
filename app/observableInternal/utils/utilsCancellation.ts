@@ -3,12 +3,12 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { IReader, IObservable } from './base.js';
-import { DebugOwner, DebugNameData } from './debugName.js';
-import { CancellationError, CancellationToken, CancellationTokenSource } from './commonFacade/cancellation.js';
-import { Derived } from './derived.js';
-import { strictEquals } from './commonFacade/deps.js';
-import { autorun } from './autorun.js';
+import { IReader, IObservable } from '../base.js';
+import { DebugOwner, DebugNameData } from '../debugName.js';
+import { CancellationError, CancellationToken, CancellationTokenSource } from '../commonFacade/cancellation.js';
+import { strictEquals } from '../commonFacade/deps.js';
+import { autorun } from '../reactions/autorun.js';
+import { Derived } from '../observables/derivedImpl.js';
 
 /**
  * Resolves the promise when the observables state matches the predicate.
@@ -91,7 +91,6 @@ export function derivedWithCancellationToken<T>(computeFnOrOwner: ((reader: IRea
 			cancellationTokenSource = new CancellationTokenSource();
 			return computeFn(r, cancellationTokenSource.token);
 		}, undefined,
-		undefined,
 		() => cancellationTokenSource?.dispose(),
 		strictEquals
 	);
