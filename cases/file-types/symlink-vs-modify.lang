@@ -1,0 +1,9 @@
+class SymlinkVsModify {
+  int symlinkVsModifyField0 = 0;
+  int symlinkVsModifyField1 = 1;
+  int symlinkVsModifyField2 = 2;
+
+  def symlinkVsModifyHello() {
+    print("symlink-vs-modify says hello");
+  }
+}

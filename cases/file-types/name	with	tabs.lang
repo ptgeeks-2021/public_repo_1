@@ -1,0 +1,9 @@
+class NameWithTabs {
+  int nameWithTabsField0 = 0;
+  int nameWithTabsField1 = 1;
+  int nameWithTabsField2 = 2;
+
+  def nameWithTabsHello() {
+    print("name-with-tabs says hello");
+  }
+}

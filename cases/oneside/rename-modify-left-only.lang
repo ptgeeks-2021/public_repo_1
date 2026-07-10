@@ -1,0 +1,9 @@
+class RenameModifyLeftOnly {
+  int renameModifyLeftOnlyField0 = 0;
+  int renameModifyLeftOnlyField1 = 1;
+  int renameModifyLeftOnlyField2 = 2;
+
+  def renameModifyLeftOnlyHello() {
+    print("rename-modify-left-only says hello");
+  }
+}

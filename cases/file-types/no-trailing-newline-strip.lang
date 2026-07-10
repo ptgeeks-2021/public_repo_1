@@ -1,0 +1,9 @@
+class NoTrailingNewlineStrip {
+  int noTrailingNewlineStripField0 = 0;
+  int noTrailingNewlineStripField1 = 1;
+  int noTrailingNewlineStripField2 = 2;
+
+  def noTrailingNewlineStripHello() {
+    print("no-trailing-newline-strip says hello");
+  }
+}

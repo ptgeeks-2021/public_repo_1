@@ -1,0 +1,9 @@
+class AddVsRenameModifySrc {
+  int addVsRenameModifySrcField0 = 0;
+  int addVsRenameModifySrcField1 = 1;
+  int addVsRenameModifySrcField2 = 2;
+
+  def addVsRenameModifySrcHello() {
+    print("add-vs-rename-modify-src says hello");
+  }
+}

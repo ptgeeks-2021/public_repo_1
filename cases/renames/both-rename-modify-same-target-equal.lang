@@ -1,0 +1,9 @@
+class BothRenameModifySameTargetEqual {
+  int bothRenameModifySameTargetEqualField0 = 0;
+  int bothRenameModifySameTargetEqualField1 = 1;
+  int bothRenameModifySameTargetEqualField2 = 2;
+
+  def bothRenameModifySameTargetEqualHello() {
+    print("both-rename-modify-same-target-equal says hello");
+  }
+}

@@ -1,0 +1,3 @@
+[submodule "cases/file-types/fixture-submodule"]
+	path = cases/file-types/fixture-submodule
+	url = https://github.com/ptgeeks-2021/public_repo_1.git

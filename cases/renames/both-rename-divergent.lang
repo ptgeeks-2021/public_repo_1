@@ -1,0 +1,9 @@
+class BothRenameDivergent {
+  int bothRenameDivergentField0 = 0;
+  int bothRenameDivergentField1 = 1;
+  int bothRenameDivergentField2 = 2;
+
+  def bothRenameDivergentHello() {
+    print("both-rename-divergent says hello");
+  }
+}

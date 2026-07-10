@@ -1,0 +1,9 @@
+class NameWithSpaces {
+  int nameWithSpacesField0 = 0;
+  int nameWithSpacesField1 = 1;
+  int nameWithSpacesField2 = 2;
+
+  def nameWithSpacesHello() {
+    print("name-with-spaces says hello");
+  }
+}
