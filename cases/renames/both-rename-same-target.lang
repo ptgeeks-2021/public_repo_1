@@ -1,0 +1,9 @@
+class BothRenameSameTarget {
+  int bothRenameSameTargetField0 = 0;
+  int bothRenameSameTargetField1 = 1;
+  int bothRenameSameTargetField2 = 2;
+
+  def bothRenameSameTargetHello() {
+    print("both-rename-same-target says hello");
+  }
+}

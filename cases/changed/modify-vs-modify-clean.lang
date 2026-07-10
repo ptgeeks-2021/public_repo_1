@@ -1,0 +1,15 @@
+class ModifyVsModifyClean {
+  int modifyVsModifyCleanField0 = 0;
+  int modifyVsModifyCleanField1 = 1;
+  int modifyVsModifyCleanField2 = 2;
+  int modifyVsModifyCleanField3 = 3;
+  int modifyVsModifyCleanField4 = 4;
+  int modifyVsModifyCleanField5 = 5;
+  int modifyVsModifyCleanField6 = 6;
+  int modifyVsModifyCleanField7 = 7;
+  int modifyVsModifyCleanField8 = 8;
+
+  def modifyVsModifyCleanHello() {
+    print("modify-vs-modify-clean says hello");
+  }
+}

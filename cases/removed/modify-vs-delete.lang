@@ -1,0 +1,11 @@
+class ModifyVsDelete {
+  int modifyVsDeleteField0 = 0;
+  int modifyVsDeleteField1 = 1;
+  int modifyVsDeleteField2 = 2;
+  int modifyVsDeleteField3 = 3;
+  int modifyVsDeleteField4 = 4;
+
+  def modifyVsDeleteHello() {
+    print("modify-vs-delete says hello");
+  }
+}

@@ -1,0 +1,9 @@
+class CrlfEndings {
+  int crlfEndingsField0 = 0;
+  int crlfEndingsField1 = 1;
+  int crlfEndingsField2 = 2;
+
+  def crlfEndingsHello() {
+    print("crlf-endings says hello");
+  }
+}
