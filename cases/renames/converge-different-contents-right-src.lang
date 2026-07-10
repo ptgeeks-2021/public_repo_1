@@ -1,9 +1,0 @@
-class ConvergeDifferentContentsRight {
-  int convergeDifferentContentsRightField0 = 0;
-  int convergeDifferentContentsRightField1 = 1;
-  int convergeDifferentContentsRightField2 = 2;
-
-  def convergeDifferentContentsRightHello() {
-    print("converge-different-contents-right says hello");
-  }
-}

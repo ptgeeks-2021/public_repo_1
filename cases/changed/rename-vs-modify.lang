@@ -1,9 +1,0 @@
-class RenameVsModify {
-  int renameVsModifyField0 = 0;
-  int renameVsModifyField1 = 1;
-  int renameVsModifyField2 = 2;
-
-  def renameVsModifyHello() {
-    print("rename-vs-modify says hello");
-  }
-}

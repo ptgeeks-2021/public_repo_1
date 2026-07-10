@@ -1,9 +1,0 @@
-class NoTrailingNewlineAddBelow {
-  int noTrailingNewlineAddBelowField0 = 0;
-  int noTrailingNewlineAddBelowField1 = 1;
-  int noTrailingNewlineAddBelowField2 = 2;
-
-  def noTrailingNewlineAddBelowHello() {
-    print("no-trailing-newline-add-below says hello");
-  }
-}

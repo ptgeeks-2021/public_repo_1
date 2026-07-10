@@ -1,5 +1,0 @@
-SQLite Is Public Domain
-
-All of the source code and documentation for SQLite is dedicated to the
-public domain. See https://www.sqlite.org/copyright.html for the full
-blessing text. This vendored slice carries the same status.

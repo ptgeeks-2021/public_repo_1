@@ -1,9 +1,0 @@
-class AddVsRenameDifferentSrc {
-  int addVsRenameDifferentSrcField0 = 0;
-  int addVsRenameDifferentSrcField1 = 1;
-  int addVsRenameDifferentSrcField2 = 2;
-
-  def addVsRenameDifferentSrcHello() {
-    print("add-vs-rename-different-src says hello");
-  }
-}

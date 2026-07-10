@@ -1,9 +1,0 @@
-class NestedDeep {
-  int nestedDeepField0 = 0;
-  int nestedDeepField1 = 1;
-  int nestedDeepField2 = 2;
-
-  def nestedDeepHello() {
-    print("nested-deep says hello");
-  }
-}

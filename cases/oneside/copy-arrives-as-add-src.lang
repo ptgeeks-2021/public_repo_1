@@ -1,9 +1,0 @@
-class CopyArrivesAsAddSrc {
-  int copyArrivesAsAddSrcField0 = 0;
-  int copyArrivesAsAddSrcField1 = 1;
-  int copyArrivesAsAddSrcField2 = 2;
-
-  def copyArrivesAsAddSrcHello() {
-    print("copy-arrives-as-add-src says hello");
-  }
-}

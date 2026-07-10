@@ -1,9 +1,0 @@
-class RenameModifyRightOnly {
-  int renameModifyRightOnlyField0 = 0;
-  int renameModifyRightOnlyField1 = 1;
-  int renameModifyRightOnlyField2 = 2;
-
-  def renameModifyRightOnlyHello() {
-    print("rename-modify-right-only says hello");
-  }
-}

@@ -1,9 +1,0 @@
-class AddVsRenameSameSrc {
-  int addVsRenameSameSrcField0 = 0;
-  int addVsRenameSameSrcField1 = 1;
-  int addVsRenameSameSrcField2 = 2;
-
-  def addVsRenameSameSrcHello() {
-    print("add-vs-rename-same-src says hello");
-  }
-}

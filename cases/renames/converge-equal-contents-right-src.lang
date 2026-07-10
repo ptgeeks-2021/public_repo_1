@@ -1,9 +1,0 @@
-class ConvergeEqualContents {
-  int convergeEqualContentsField0 = 0;
-  int convergeEqualContentsField1 = 1;
-  int convergeEqualContentsField2 = 2;
-
-  def convergeEqualContentsHello() {
-    print("converge-equal-contents says hello");
-  }
-}

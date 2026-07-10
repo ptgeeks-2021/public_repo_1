@@ -1,9 +1,0 @@
-class RenameOntoVsAddSrc {
-  int renameOntoVsAddSrcField0 = 0;
-  int renameOntoVsAddSrcField1 = 1;
-  int renameOntoVsAddSrcField2 = 2;
-
-  def renameOntoVsAddSrcHello() {
-    print("rename-onto-vs-add-src says hello");
-  }
-}
