@@ -3,9 +3,13 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { EqualityComparer } from './commonFacade/deps.js';
-import { BaseObservable, IObserver, ISettableObservable, ITransaction, TransactionImpl } from './base.js';
-import { DebugNameData } from './debugName.js';
+import { EqualityComparer } from '../commonFacade/deps.js';
+import { IObserver, ISettableObservable, ITransaction } from '../base.js';
+import { TransactionImpl } from '../transaction.js';
+import { DebugNameData } from '../debugName.js';
+import { getLogger } from '../logging/logging.js';
+import { BaseObservable } from './baseObservable.js';
+import { DebugLocation } from '../debugLocation.js';
 
 /**
  * Holds off updating observers until the value is actually read.
@@ -25,8 +29,9 @@ export class LazyObservableValue<T, TChange = void>
 		private readonly _debugNameData: DebugNameData,
 		initialValue: T,
 		private readonly _equalityComparator: EqualityComparer<T>,
+		debugLocation: DebugLocation
 	) {
-		super();
+		super(debugLocation);
 		this._value = initialValue;
 	}
 
@@ -42,14 +47,16 @@ export class LazyObservableValue<T, TChange = void>
 		this._isUpToDate = true;
 
 		if (this._deltas.length > 0) {
-			for (const observer of this.observers) {
-				for (const change of this._deltas) {
+			for (const change of this._deltas) {
+				getLogger()?.handleObservableUpdated(this, { change, didChange: true, oldValue: '(unknown)', newValue: this._value, hadValue: true });
+				for (const observer of this._observers) {
 					observer.handleChange(this, change);
 				}
 			}
 			this._deltas.length = 0;
 		} else {
-			for (const observer of this.observers) {
+			getLogger()?.handleObservableUpdated(this, { change: undefined, didChange: true, oldValue: '(unknown)', newValue: this._value, hadValue: true });
+			for (const observer of this._observers) {
 				observer.handleChange(this, undefined);
 			}
 		}
@@ -60,7 +67,7 @@ export class LazyObservableValue<T, TChange = void>
 	private _beginUpdate(): void {
 		this._updateCounter++;
 		if (this._updateCounter === 1) {
-			for (const observer of this.observers) {
+			for (const observer of this._observers) {
 				observer.beginUpdate(this);
 			}
 		}
@@ -72,7 +79,7 @@ export class LazyObservableValue<T, TChange = void>
 			this._update();
 
 			// End update could change the observer list.
-			const observers = [...this.observers];
+			const observers = [...this._observers];
 			for (const r of observers) {
 				r.endUpdate(this);
 			}
@@ -80,7 +87,7 @@ export class LazyObservableValue<T, TChange = void>
 	}
 
 	public override addObserver(observer: IObserver): void {
-		const shouldCallBeginUpdate = !this.observers.has(observer) && this._updateCounter > 0;
+		const shouldCallBeginUpdate = !this._observers.has(observer) && this._updateCounter > 0;
 		super.addObserver(observer);
 
 		if (shouldCallBeginUpdate) {
@@ -89,7 +96,7 @@ export class LazyObservableValue<T, TChange = void>
 	}
 
 	public override removeObserver(observer: IObserver): void {
-		const shouldCallEndUpdate = this.observers.has(observer) && this._updateCounter > 0;
+		const shouldCallEndUpdate = this._observers.has(observer) && this._updateCounter > 0;
 		super.removeObserver(observer);
 
 		if (shouldCallEndUpdate) {
@@ -123,7 +130,7 @@ export class LazyObservableValue<T, TChange = void>
 
 			if (this._updateCounter > 1) {
 				// We already started begin/end update, so we need to manually call handlePossibleChange
-				for (const observer of this.observers) {
+				for (const observer of this._observers) {
 					observer.handlePossibleChange(this);
 				}
 			}
