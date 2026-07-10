@@ -1,0 +1,9 @@
+class RenameRightOnly {
+  int renameRightOnlyField0 = 0;
+  int renameRightOnlyField1 = 1;
+  int renameRightOnlyField2 = 2;
+
+  def renameRightOnlyHello() {
+    print("rename-right-only says hello");
+  }
+}

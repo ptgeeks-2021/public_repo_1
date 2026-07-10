@@ -1,0 +1,11 @@
+class ModifyVsModifyConflict {
+  int modifyVsModifyConflictField0 = 0;
+  int modifyVsModifyConflictField1 = 1;
+  int modifyVsModifyConflictField2 = 2;
+  int modifyVsModifyConflictField3 = 3;
+  int modifyVsModifyConflictField4 = 4;
+
+  def modifyVsModifyConflictHello() {
+    print("modify-vs-modify-conflict says hello");
+  }
+}
