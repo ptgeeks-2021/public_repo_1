@@ -1,6 +1,6 @@
 class ModifyLeftOnly {
   int modifyLeftOnlyField0 = 0;
-  int modifyLeftOnlyField1 = 1;
+  int modifyLeftOnlyField1 = 11;
   int modifyLeftOnlyField2 = 2;
 
   def modifyLeftOnlyHello() {
