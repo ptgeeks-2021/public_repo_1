@@ -1,0 +1,9 @@
+class BothAddDifferentLeft {
+  int bothAddDifferentLeftField0 = 0;
+  int bothAddDifferentLeftField1 = 1;
+  int bothAddDifferentLeftField2 = 2;
+
+  def bothAddDifferentLeftHello() {
+    print("both-add-different-left says hello");
+  }
+}

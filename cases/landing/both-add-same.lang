@@ -1,0 +1,9 @@
+class BothAddSame {
+  int bothAddSameField0 = 0;
+  int bothAddSameField1 = 1;
+  int bothAddSameField2 = 2;
+
+  def bothAddSameHello() {
+    print("both-add-same says hello");
+  }
+}
