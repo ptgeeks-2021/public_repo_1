@@ -1,6 +1,6 @@
 class BothRenameModifySameTargetDifferent {
   int bothRenameModifySameTargetDifferentField0 = 0;
-  int bothRenameModifySameTargetDifferentField1 = 1;
+  int bothRenameModifySameTargetDifferentField1 = 11;
   int bothRenameModifySameTargetDifferentField2 = 2;
 
   def bothRenameModifySameTargetDifferentHello() {
