@@ -7,3 +7,5 @@ class NoTrailingNewlineAddBelow {
     print("no-trailing-newline-add-below says hello");
   }
 }
+  // appended-after-no-trailing-newline-1
+  // appended-after-no-trailing-newline-2

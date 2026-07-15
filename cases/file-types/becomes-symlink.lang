@@ -1,9 +1,1 @@
-class BecomesSymlink {
-  int becomesSymlinkField0 = 0;
-  int becomesSymlinkField1 = 1;
-  int becomesSymlinkField2 = 2;
-
-  def becomesSymlinkHello() {
-    print("becomes-symlink says hello");
-  }
-}
+rewrite-arrives-as-modified.lang
