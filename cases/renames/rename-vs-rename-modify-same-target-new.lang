@@ -1,6 +1,6 @@
 class RenameVsRenameModifySameTarget {
   int renameVsRenameModifySameTargetField0 = 0;
-  int renameVsRenameModifySameTargetField1 = 1;
+  int renameVsRenameModifySameTargetField1 = 11;
   int renameVsRenameModifySameTargetField2 = 2;
 
   def renameVsRenameModifySameTargetHello() {
