@@ -1,0 +1,9 @@
+class AddVsRenameDifferentLeft {
+  int addVsRenameDifferentLeftField0 = 0;
+  int addVsRenameDifferentLeftField1 = 1;
+  int addVsRenameDifferentLeftField2 = 2;
+
+  def addVsRenameDifferentLeftHello() {
+    print("add-vs-rename-different-left says hello");
+  }
+}
