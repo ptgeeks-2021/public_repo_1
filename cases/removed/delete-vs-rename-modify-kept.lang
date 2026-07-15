@@ -1,6 +1,6 @@
 class DeleteVsRenameModify {
   int deleteVsRenameModifyField0 = 0;
-  int deleteVsRenameModifyField1 = 1;
+  int deleteVsRenameModifyField1 = 11;
   int deleteVsRenameModifyField2 = 2;
   int deleteVsRenameModifyField3 = 3;
   int deleteVsRenameModifyField4 = 4;
