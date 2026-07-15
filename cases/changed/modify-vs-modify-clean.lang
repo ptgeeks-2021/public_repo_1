@@ -7,7 +7,7 @@ class ModifyVsModifyClean {
   int modifyVsModifyCleanField5 = 5;
   int modifyVsModifyCleanField6 = 6;
   int modifyVsModifyCleanField7 = 7;
-  int modifyVsModifyCleanField8 = 8;
+  int modifyVsModifyCleanField8 = 200;
 
   def modifyVsModifyCleanHello() {
     print("modify-vs-modify-clean says hello");

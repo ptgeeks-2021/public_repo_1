@@ -1,7 +1,7 @@
 class ModifyVsModifyConflict {
   int modifyVsModifyConflictField0 = 0;
   int modifyVsModifyConflictField1 = 1;
-  int modifyVsModifyConflictField2 = 2;
+  int modifyVsModifyConflictField2 = 200;
   int modifyVsModifyConflictField3 = 3;
   int modifyVsModifyConflictField4 = 4;
 

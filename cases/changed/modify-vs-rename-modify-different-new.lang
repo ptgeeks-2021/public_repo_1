@@ -1,6 +1,6 @@
 class ModifyVsRenameModifyDifferent {
   int modifyVsRenameModifyDifferentField0 = 0;
-  int modifyVsRenameModifyDifferentField1 = 1;
+  int modifyVsRenameModifyDifferentField1 = 22;
   int modifyVsRenameModifyDifferentField2 = 2;
 
   def modifyVsRenameModifyDifferentHello() {
