@@ -1,6 +1,6 @@
 class SymlinkVsModify {
   int symlinkVsModifyField0 = 0;
-  int symlinkVsModifyField1 = 1;
+  int symlinkVsModifyField1 = 11;
   int symlinkVsModifyField2 = 2;
 
   def symlinkVsModifyHello() {
