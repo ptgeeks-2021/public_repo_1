@@ -1,6 +1,6 @@
 class RenameModifyRightOnly {
   int renameModifyRightOnlyField0 = 0;
-  int renameModifyRightOnlyField1 = 1;
+  int renameModifyRightOnlyField1 = 11;
   int renameModifyRightOnlyField2 = 2;
 
   def renameModifyRightOnlyHello() {

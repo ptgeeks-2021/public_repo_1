@@ -1,0 +1,9 @@
+class AddRightOnly {
+  int addRightOnlyField0 = 0;
+  int addRightOnlyField1 = 1;
+  int addRightOnlyField2 = 2;
+
+  def addRightOnlyHello() {
+    print("add-right-only says hello");
+  }
+}

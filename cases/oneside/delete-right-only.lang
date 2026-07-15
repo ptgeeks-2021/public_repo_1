@@ -1,9 +1,0 @@
-class DeleteRightOnly {
-  int deleteRightOnlyField0 = 0;
-  int deleteRightOnlyField1 = 1;
-  int deleteRightOnlyField2 = 2;
-
-  def deleteRightOnlyHello() {
-    print("delete-right-only says hello");
-  }
-}
