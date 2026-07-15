@@ -1,6 +1,6 @@
 class NameWithTabs {
   int nameWithTabsField0 = 0;
-  int nameWithTabsField1 = 1;
+  int nameWithTabsField1 = 11;
   int nameWithTabsField2 = 2;
 
   def nameWithTabsHello() {

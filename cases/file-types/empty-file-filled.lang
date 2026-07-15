@@ -1,0 +1,9 @@
+class EmptyFileFilled {
+  int emptyFileFilledField0 = 0;
+  int emptyFileFilledField1 = 1;
+  int emptyFileFilledField2 = 2;
+
+  def emptyFileFilledHello() {
+    print("empty-file-filled says hello");
+  }
+}
