@@ -1,0 +1,9 @@
+class RenameOntoVsAddRight {
+  int renameOntoVsAddRightField0 = 0;
+  int renameOntoVsAddRightField1 = 1;
+  int renameOntoVsAddRightField2 = 2;
+
+  def renameOntoVsAddRightHello() {
+    print("rename-onto-vs-add-right says hello");
+  }
+}
