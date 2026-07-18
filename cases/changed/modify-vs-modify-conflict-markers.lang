@@ -2,6 +2,7 @@ class ModifyVsModifyConflictMarkers {
   int modifyVsModifyConflictMarkersField0 = 0;
   int modifyVsModifyConflictMarkersField1 = 1;
   int modifyVsModifyConflictMarkersField2 = 0; // <<<<<<< left-marker-line
+  // ======= middle-marker-line
   int modifyVsModifyConflictMarkersField3 = 3;
   int modifyVsModifyConflictMarkersField4 = 4;
 
