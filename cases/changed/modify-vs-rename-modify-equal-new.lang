@@ -1,6 +1,6 @@
 class ModifyVsRenameModifyEqual {
   int modifyVsRenameModifyEqualField0 = 0;
-  int modifyVsRenameModifyEqualField1 = 1;
+  int modifyVsRenameModifyEqualField1 = 99;
   int modifyVsRenameModifyEqualField2 = 2;
 
   def modifyVsRenameModifyEqualHello() {
