@@ -1,0 +1,9 @@
+class RenameModifyVsRenameSameTarget {
+  int renameModifyVsRenameSameTargetField0 = 0;
+  int renameModifyVsRenameSameTargetField1 = 11;
+  int renameModifyVsRenameSameTargetField2 = 2;
+
+  def renameModifyVsRenameSameTargetHello() {
+    print("rename-modify-vs-rename-same-target says hello");
+  }
+}

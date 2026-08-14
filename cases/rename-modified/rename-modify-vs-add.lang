@@ -1,0 +1,9 @@
+class RenameModifyVsAddSrc {
+  int renameModifyVsAddSrcField0 = 0;
+  int renameModifyVsAddSrcField1 = 11;
+  int renameModifyVsAddSrcField2 = 2;
+
+  def renameModifyVsAddSrcHello() {
+    print("rename-modify-vs-add-src says hello");
+  }
+}
