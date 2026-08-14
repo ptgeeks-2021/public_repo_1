@@ -1,6 +1,6 @@
 class RenameModifyVsAddSrc {
   int renameModifyVsAddSrcField0 = 0;
-  int renameModifyVsAddSrcField1 = 1;
+  int renameModifyVsAddSrcField1 = 11;
   int renameModifyVsAddSrcField2 = 2;
 
   def renameModifyVsAddSrcHello() {
