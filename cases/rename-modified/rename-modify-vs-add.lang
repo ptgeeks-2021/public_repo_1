@@ -1,0 +1,9 @@
+class RenameModifyVsAddRight {
+  int renameModifyVsAddRightField0 = 0;
+  int renameModifyVsAddRightField1 = 1;
+  int renameModifyVsAddRightField2 = 2;
+
+  def renameModifyVsAddRightHello() {
+    print("rename-modify-vs-add-right says hello");
+  }
+}
