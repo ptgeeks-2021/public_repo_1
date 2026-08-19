@@ -1,5 +1,5 @@
 class ModifyVsModifyClean {
-  int modifyVsModifyCleanField0 = 0;
+  int modifyVsModifyCleanField0 = 100;
   int modifyVsModifyCleanField1 = 1;
   int modifyVsModifyCleanField2 = 2;
   int modifyVsModifyCleanField3 = 3;

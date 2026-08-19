@@ -1,7 +1,7 @@
 class ModifyVsModifyIdentical {
   int modifyVsModifyIdenticalField0 = 0;
   int modifyVsModifyIdenticalField1 = 1;
-  int modifyVsModifyIdenticalField2 = 2;
+  int modifyVsModifyIdenticalField2 = 42;
   int modifyVsModifyIdenticalField3 = 3;
   int modifyVsModifyIdenticalField4 = 4;
 
